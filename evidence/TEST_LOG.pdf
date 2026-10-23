@@ -1,0 +1,71 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2482 >>
+stream
+BT /F1 10 Tf 13 TL 40 802 Td
+(# TEST LOG ? DRAFT WITH ACTUAL AUTOMATED RESULTS) Tj T*
+() Tj T*
+(Project: AgriSoko Pocket G13 / Group G13. Date: 2026-10-23.) Tj T*
+(Environment: Windows PowerShell, existing Python 3.14 virtual environment, Node 24.16.0, npm) Tj T*
+(11.13.0, Expo SDK 58.0.17.) Tj T*
+() Tj T*
+(Executed backend: python -m pytest -q --basetemp=.pytest-tmp-final) Tj T*
+(Result: 54 passed; one upstream Starlette TestClient/httpx deprecation warning. pip check: no) Tj T*
+(broken requirements found.) Tj T*
+(Coverage: record/schema validation, empty dataset, thresholds, exact identifiers, aliases,) Tj T*
+(role/skill/feature/contribution, no-match, deterministic ties, persistence/fingerprint,) Tj T*
+(grounding and all API routes.) Tj T*
+() Tj T*
+(Executed real HTTP: 11 urllib requests over actual TCP to uvicorn on 127.0.0.1:8013. Expected) Tj T*
+(200/404/422/400 statuses passed. Full bodies recorded in docs/HTTP_TEST_RESULTS.json.) Tj T*
+() Tj T*
+(Executed evaluation: python evaluate.py. 12/12 identity-query top-1 matches, 5/5 deliberate) Tj T*
+(no-match rejections; zero observed errors. Three identity paraphrases per member. Not a) Tj T*
+(measure of real skill/feature generalization; technical records await approval. See) Tj T*
+(docs/AI_EVALUATION.json for every query.) Tj T*
+() Tj T*
+(Executed mobile: six focused domain unit tests passed. tsc --noEmit passed. Expo Doctor: 20/20) Tj T*
+(checks passed. Android production Metro export succeeded. These results do not validate) Tj T*
+(physical-device rendering, navigation, persistence, connectivity transitions or installation.) Tj T*
+() Tj T*
+(Security check: npm audit reports 15 high affected nodes from two underlying transitive) Tj T*
+(advisories; unresolved. See docs/SECURITY_FINDINGS.md. Initial diagnostics/test attempts and) Tj T*
+(their corrections are documented in docs/CHANGELOG.md.) Tj T*
+() Tj T*
+(NOT EXECUTED: real Android APK installation; device UI/TalkBack/rotation; storage) Tj T*
+(kill/relaunch; real phone-to-API integration; genuine tester feedback. No tested device,) Tj T*
+(tester signature or APK hash is asserted.) Tj T*
+() Tj T*
+(Complete the manual rows after actual testing: device/model, Android version, APK SHA-256,) Tj T*
+(tester/date, scenario, expected behavior, observed behavior, pass/fail, screenshot/video) Tj T*
+(reference and fix/retest evidence. Use docs/DEVICE_TEST_CHECKLIST.md.) Tj T*
+ET
+BT /F1 9 Tf 40 25 Td (DRAFT - pending evidence / page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2851
+%%EOF

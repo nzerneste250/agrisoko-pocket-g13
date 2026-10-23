@@ -1,0 +1,43 @@
+{
+  "source": "F:\\COMBO_A3_G13",
+  "destination": "F:\\G13_EAS_CLEAN",
+  "createdAt": "2026-10-23T12:36:51.702449+00:00",
+  "files": [
+    {
+      "path": "mobile/App.tsx",
+      "sourceSha256": "ff2583188cf93ef92e3db220e52b2354ebf0c20cef77cb43f21280cc2091c3b9",
+      "destinationSha256": "c8f32054e5716b717df5540d30ec1b12aead025fda907e57ce9a073f66a1c2cf",
+      "destinationNewer": false
+    },
+    {
+      "path": "mobile/src/api.ts",
+      "sourceSha256": "97e0afe98a1b7408b572e5407eee509ae7bfda51f9e74d6a89b0da7a36ca22a5",
+      "destinationSha256": "fd60f6852290db289fe2ec312438c6fdea33d7c09eeb25d5bb2e5abf636f807a",
+      "destinationNewer": false
+    },
+    {
+      "path": "mobile/src/network.ts",
+      "sourceSha256": "fa07bf10009ca5ea06d241444a4886ee21af07fb203f0b79e1b9ba18289f3980",
+      "destinationSha256": null,
+      "destinationNewer": false
+    },
+    {
+      "path": "mobile/src/useConnectivity.ts",
+      "sourceSha256": "543814755c392c452aa0b16b3bbcb105c444a69096a71eb52e91db729c4960ab",
+      "destinationSha256": null,
+      "destinationNewer": false
+    },
+    {
+      "path": "mobile/tests/encoding.test.ts",
+      "sourceSha256": "eb915bde597a3188b5e780148d463488b621de4c2665489683ec4f10219e152e",
+      "destinationSha256": null,
+      "destinationNewer": false
+    },
+    {
+      "path": "mobile/tests/network.test.ts",
+      "sourceSha256": "651b2df4cd303403c2425279b6afb7d4ea12677cee3cd94b29e0ffb3925e34e2",
+      "destinationSha256": null,
+      "destinationNewer": false
+    }
+  ]
+}

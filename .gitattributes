@@ -1,0 +1,13 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.apk binary
+*.zip binary
+*.md text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.yml text eol=lf

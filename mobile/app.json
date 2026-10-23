@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "AgriSoko Pocket G13",
+    "slug": "agrisoko-pocket-g13",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.agrisoko.pocket.g13",
+      "versionCode": 1
+    },
+    "extra": {
+      "groupCode": "G13",
+      "eas": {
+        "projectId": "6941af19-b34c-42b0-a825-6a599a600d7c"
+      }
+    },
+    "icon": "./assets/icon.png"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "groupCode": "G13",
+  "datasetVersion": "1.0.0-draft",
+  "source": "AgriSoko Pocket G13 group roster (assignment brief), recorded by NZAYISENGA Erneste (group leader). Other member details await individual confirmation.",
+  "members": [
+    {
+      "id": "nzayisenga-erneste",
+      "fullName": "NZAYISENGA Erneste",
+      "registrationNumber": "25/27341",
+      "aliases": [],
+      "githubUsername": "nzerneste250",
+      "role": "Group leader",
+      "skills": [],
+      "targetUser": null,
+      "problem": null,
+      "contribution": null,
+      "feature": null,
+      "outcomeMetric": null,
+      "evidenceLinks": [],
+      "testerFeedback": null,
+      "introductionDraft": null,
+      "_meta": {
+        "approvalStatus": "pending",
+        "approvedBy": null,
+        "approvedAt": null,
+        "source": "Assignment brief (group leader identity). Technical fields await member confirmation.",
+        "notes": "Identity, registration number and GitHub username are verified from the assignment brief. Role is stated in the brief; all other fields are empty pending member approval. Do not treat this record as signed off."
+      }
+    },
+    {
+      "id": "ineza-benitha",
+      "fullName": "INEZA Benitha",
+      "registrationNumber": null,
+      "aliases": [],
+      "githubUsername": null,
+      "role": null,
+      "skills": [],
+      "targetUser": null,
+      "problem": null,
+      "contribution": null,
+      "feature": null,
+      "outcomeMetric": null,
+      "evidenceLinks": [],
+      "testerFeedback": null,
+      "introductionDraft": null,
+      "_meta": {
+        "approvalStatus": "pending",
+        "approvedBy": null,
+        "approvedAt": null,
+        "source": "Assignment brief (member name only).",
+        "notes": "Name verified from the group roster in the assignment brief. Registration number, GitHub username, role, skills and all other fields are unknown and await member approval."
+      }
+    },
+    {
+      "id": "manzi-cedrick",
+      "fullName": "MANZI Cedrick",
+      "registrationNumber": null,
+      "aliases": [],
+      "githubUsername": null,
+      "role": null,
+      "skills": [],
+      "targetUser": null,
+      "problem": null,
+      "contribution": null,
+      "feature": null,
+      "outcomeMetric": null,
+      "evidenceLinks": [],
+      "testerFeedback": null,
+      "introductionDraft": null,
+      "_meta": {
+        "approvalStatus": "pending",
+        "approvedBy": null,
+        "approvedAt": null,
+        "source": "Assignment brief (member name only).",
+        "notes": "Name verified from the group roster in the assignment brief. Registration number, GitHub username, role, skills and all other fields are unknown and await member approval."
+      }
+    },
+    {
+      "id": "kirenga-alain-thierry",
+      "fullName": "KIRENGA Alain Thierry",
+      "registrationNumber": null,
+      "aliases": [],
+      "githubUsername": null,
+      "role": null,
+      "contribution": null,
+      "feature": null,
+      "outcomeMetric": null,
+      "evidenceLinks": [],
+      "testerFeedback": null,
+      "introductionDraft": null,
+      "_meta": {
+        "approvalStatus": "pending",
+        "approvedBy": null,
+        "approvedAt": null,
+        "source": "Assignment brief (member name only).",
+        "notes": "Name verified from the group roster in the assignment brief. Registration number, GitHub username, role, skills and all other fields are unknown and await member approval."
+      },
+      "skills": [],
+      "targetUser": null,
+      "problem": null
+    }
+  ]
+}

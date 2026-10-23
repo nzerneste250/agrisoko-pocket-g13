@@ -1,0 +1,211 @@
+{
+  "transport": "Actual localhost TCP HTTP via uvicorn, not only TestClient",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "version": "1.0.0",
+        "groupCode": "G13"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/members",
+      "status": 200,
+      "body": [
+        {
+          "skills": [],
+          "aliases": [],
+          "approvalStatus": "pending",
+          "id": "nzayisenga-erneste",
+          "fullName": "NZAYISENGA Erneste",
+          "role": "Group leader",
+          "githubUsername": "nzerneste250"
+        },
+        {
+          "skills": [],
+          "aliases": [],
+          "approvalStatus": "pending",
+          "id": "ineza-benitha",
+          "fullName": "INEZA Benitha",
+          "role": null,
+          "githubUsername": null
+        },
+        {
+          "skills": [],
+          "aliases": [],
+          "approvalStatus": "pending",
+          "id": "manzi-cedrick",
+          "fullName": "MANZI Cedrick",
+          "role": null,
+          "githubUsername": null
+        },
+        {
+          "skills": [],
+          "aliases": [],
+          "approvalStatus": "pending",
+          "id": "kirenga-alain-thierry",
+          "fullName": "KIRENGA Alain Thierry",
+          "role": null,
+          "githubUsername": null
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/members/nzayisenga-erneste",
+      "status": 200,
+      "body": {
+        "id": "nzayisenga-erneste",
+        "fullName": "NZAYISENGA Erneste",
+        "registrationNumber": "25/27341",
+        "aliases": [],
+        "githubUsername": "nzerneste250",
+        "role": "Group leader",
+        "skills": [],
+        "targetUser": null,
+        "problem": null,
+        "contribution": null,
+        "feature": null,
+        "outcomeMetric": null,
+        "evidenceLinks": [],
+        "testerFeedback": null,
+        "introductionDraft": null,
+        "approvalStatus": "pending"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/members/unknown",
+      "status": 404,
+      "body": {
+        "detail": "Member with id 'unknown' not found."
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "status": 200,
+      "body": {
+        "matched": true,
+        "member": {
+          "id": "nzayisenga-erneste",
+          "fullName": "NZAYISENGA Erneste",
+          "registrationNumber": "25/27341",
+          "role": "Group leader",
+          "githubUsername": "nzerneste250",
+          "approvalStatus": "pending"
+        },
+        "confidence": 1.0,
+        "reason": "exact name/alias/registration/github match (exact identifier precedence)",
+        "introduction": "NZAYISENGA Erneste Profile pending member approval; only supplied roster facts are shown. NZAYISENGA Erneste is the Group leader of AgriSoko Pocket G13. Registration number: 25/27341. GitHub: nzerneste250. Remaining profile fields are awaiting member approval and are not displayed.",
+        "evidenceLinks": [],
+        "modelVersion": "1.0.0",
+        "groupCode": "G13"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "status": 200,
+      "body": {
+        "matched": false,
+        "member": null,
+        "confidence": 0.0,
+        "reason": "Best match (NZAYISENGA Erneste) scored 0.000, below the confidence threshold of 0.45.",
+        "introduction": "",
+        "evidenceLinks": [],
+        "modelVersion": "1.0.0",
+        "groupCode": "G13"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "status": 422,
+      "body": {
+        "detail": [
+          {
+            "type": "missing",
+            "loc": [
+              "body",
+              "question"
+            ],
+            "msg": "Field required",
+            "input": {}
+          }
+        ]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "status": 422,
+      "body": {
+        "detail": [
+          {
+            "type": "string_type",
+            "loc": [
+              "body",
+              "question"
+            ],
+            "msg": "Input should be a valid string",
+            "input": 42
+          }
+        ]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "status": 422,
+      "body": {
+        "detail": [
+          {
+            "type": "string_too_long",
+            "loc": [
+              "body",
+              "question"
+            ],
+            "msg": "String should have at most 500 characters",
+            "input": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "ctx": {
+              "max_length": 500
+            }
+          }
+        ]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "status": 400,
+      "body": {
+        "detail": "Question must not be empty."
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/model-info",
+      "status": 200,
+      "body": {
+        "version": "1.0.0",
+        "groupCode": "G13",
+        "modelVersion": "1.0.0",
+        "vectorizerType": "tfidf-word-ngram-(1,2)",
+        "confidenceThreshold": 0.45,
+        "datasetFingerprint": "2cdc122b5bdf7a696654fc10e492011aa7e492d4bce0ca87a1b50378bf467577",
+        "limitations": [
+          "Roster facts were supplied by the user; individual approval is pending. Pending technical claims and evidence are excluded.",
+          "Matching is lexical: English stop words removed, TF-IDF word unigrams/bigrams, maximum cosine over profile or role/skills/feature/contribution field. Exact identifiers score 1. Ties use dataset order. Scores are not probabilities.",
+          "With sparse profile data, queries match primarily on member names, registration numbers, aliases and GitHub usernames.",
+          "No generative model is used; introductions are assembled strictly from dataset fields."
+        ],
+        "buildCommit": null
+      }
+    }
+  ]
+}
