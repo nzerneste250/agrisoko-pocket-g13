@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -66,14 +66,14 @@ BT /F1 10 Tf 13 TL 40 802 Td
 (mechanisms without claiming real contributions.) Tj T*
 (Fingerprint: 2cdc122b5bdf7a696654fc10e492011aa7e492d4bce0ca87a1b50378bf467577.) Tj T*
 ET
-BT /F1 9 Tf 40 25 Td (DRAFT - pending evidence / page 1 of 2) Tj ET
+BT /F1 9 Tf 40 25 Td (DRAFT - pending evidence / page 1 of 3) Tj ET
 endstream
 endobj
 6 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
 endobj
 7 0 obj
-<< /Length 1901 >>
+<< /Length 3731 >>
 stream
 BT /F1 10 Tf 13 TL 40 802 Td
 () Tj T*
@@ -83,41 +83,91 @@ BT /F1 10 Tf 13 TL 40 802 Td
 (was applied. Review upstream fixes before final release. Only HTTPS evidence links without) Tj T*
 (credentials are opened. No hardcoded credentials or invented deployed API URL were added.) Tj T*
 () Tj T*
-(Android delivery) Tj T*
-(The app name is AgriSoko Pocket G13, Android package com.agrisoko.pocket.g13, version 1.0.0.) Tj T*
-(EAS preview uses internal APK distribution without Expo Go. EAS account status was checked;) Tj T*
-(the user explicitly chose local preparation only. No cloud build was submitted, no APK exists) Tj T*
-(and no device installation was verified. Use the README instructions after owner authorization) Tj T*
-(or local Android toolchain setup.) Tj T*
+(Android delivery, publication and remaining evidence) Tj T*
+(See the current status below. Earlier automated results above are historical records; the) Tj T*
+(later device follow-up recorded 25 passing mobile tests. They do not establish APK/source) Tj T*
+(correspondence or successful phone-to-API integration.) Tj T*
 () Tj T*
-(Collaboration and evidence gaps) Tj T*
-(Git has no commits/remotes; no repository/release URL or final commit exists. Proposed) Tj T*
-(assignments are plans only. Every member must perform an assessed issue, substantial PR,) Tj T*
-(meaningful peer review and contribution explanation. No signatures, tester feedback,) Tj T*
-(screenshots, video or individual technical ownership were fabricated. Evidence PDFs are draft) Tj T*
-(templates. Cline/Codex assistance is disclosed in evidence/AI_USE.md.) Tj T*
+(## Submission status - 2026-10-23: INCOMPLETE) Tj T*
 () Tj T*
-(Before submission) Tj T*
-(Reconcile the official assignment, approve real profiles, resolve/review dependency findings,) Tj T*
-(configure a real API, build/install/test the APK, collect genuine feedback/demo and) Tj T*
-(collaboration evidence, then finalize PDFs and COMBO_A3_G13.zip. Required video) Tj T*
-(evidence/COMBO_A3_G13_DEMO.mp4 remains absent.) Tj T*
+(Repository: https://github.com/nzerneste250/agrisoko-pocket-g13) Tj T*
+(Release: https://github.com/nzerneste250/agrisoko-pocket-g13/releases/tag/v1.0.0) Tj T*
+(Confirmed source commit: ccc89860d7bd589f028357afe1fd90371b76c498 \(ccc8986\).) Tj T*
+(Repository and published release were read on 2026-10-23; the release points to ccc8986. These) Tj T*
+(documentation/packaging updates are local changes after that commit; no new commit, push or) Tj T*
+(release update is claimed. APK provenance is not independently linked to an EAS build or this) Tj T*
+(exact source commit.) Tj T*
+() Tj T*
+(Verified locally: build/AgriSokoPocket_G13.apk exists \(68,902,179 bytes\).) Tj T*
+(APK SHA-256: f54de6242dd259b68005707c1a186a5e9f7b08493bb87679af1ff614c4a1faee.) Tj T*
+(The APK was not rebuilt or modified during finalization.) Tj T*
+() Tj T*
+(Recorded Android result: the owner reports successful installation and launch; the published) Tj T*
+(release repeats that result. This is genuine owner-reported evidence, not an agent-observed) Tj T*
+(installation or independent second test. Online API connectivity failed in the recorded phone) Tj T*
+(test and remains unresolved. The workstation /health 200 in docs/DEVICE_FIX_REPORT.md does not) Tj T*
+(prove phone connectivity. No device model/version, logcat, installed manifest, screenshots or) Tj T*
+(signed test record is available here. Full offline/cache/accessibility/reconnection acceptance) Tj T*
+(remains unverified.) Tj T*
+() Tj T*
+(Evidence status: automated results are historical recorded measurements \(backend 54 tests,) Tj T*
+(localhost HTTP 11 checks, identity evaluation 12/12 and no-match 5/5; latest follow-up mobile) Tj T*
+(25 tests, TypeScript, Expo Doctor 20/20, four sync tests and JS export\). They were not rerun) Tj T*
+(in this documentation-only finalization. PDFs are readable draft records/templates, not signed) Tj T*
+(final evidence. Contributions have no verified assessed issues, substantial member PRs or) Tj T*
+(meaningful peer reviews; feedback count is zero. No signatures, reviewers, testers,) Tj T*
+(quotations, individual implementation ownership or demonstration evidence have been invented.) Tj T*
+() Tj T*
+(Known limitations and missing evidence:) Tj T*
+(- Official assignment PDF absent: rubric compliance cannot be certified.) Tj T*
+(- All four profile approvals pending; other members' registrations/accounts and technical) Tj T*
+(facts remain unverified. Agricultural target users, problem, delivered agricultural features) Tj T*
+(and outcomes lack supplied facts; current product is team lookup.) Tj T*
+(- Genuine per-member issue/PR/review/explanation evidence and any required signatures absent.) Tj T*
+(- Genuine independent tester feedback and full device acceptance records/screenshots absent.) Tj T*
 ET
-BT /F1 9 Tf 40 25 Td (DRAFT - pending evidence / page 2 of 2) Tj ET
+BT /F1 9 Tf 40 25 Td (DRAFT - pending evidence / page 2 of 3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1202 >>
+stream
+BT /F1 10 Tf 13 TL 40 802 Td
+(- Required evidence/COMBO_A3_G13_DEMO.mp4 absent; no placeholder video supplied.) Tj T*
+(- Phone-to-API failure unresolved; private preview address 172.30.114.74:8000 needs LAN/VPN) Tj T*
+(routing. Preview cleartext exception is app-wide; production requires HTTPS. Installed APK) Tj T*
+(policy and original cancellation cause unverified.) Tj T*
+(- Sparse roster evaluation covers easy identities only; skill/feature tests use synthetic) Tj T*
+(fixtures. Scores are not probabilities; offline search is exact matching, not TF-IDF. Pending) Tj T*
+(technical claims are excluded.) Tj T*
+(- Historical npm audit records 15 high affected dependency nodes from two advisories; no fresh) Tj T*
+(audit or remediation is claimed. Existing upstream Starlette/httpx test warning remains.) Tj T*
+(- Published APK/source correspondence, signing/build provenance and physical-device retest of) Tj T*
+(latest UI/network changes unverified.) Tj T*
+() Tj T*
+(Submission remains incomplete until genuine missing evidence is supplied. Publication and) Tj T*
+(readable PDFs do not establish assignment completion.) Tj T*
+ET
+BT /F1 9 Tf 40 25 Td (DRAFT - pending evidence / page 3 of 3) Tj ET
 endstream
 endobj
 xref
-0 8
+0 10
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000127 00000 n 
-0000000197 00000 n 
-0000000323 00000 n 
-0000003994 00000 n 
-0000004120 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000329 00000 n 
+0000004000 00000 n 
+0000004126 00000 n 
+0000007909 00000 n 
+0000008035 00000 n 
 trailer
-<< /Size 8 /Root 1 0 R >>
+<< /Size 10 /Root 1 0 R >>
 startxref
-6073
+9289
 %%EOF

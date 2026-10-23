@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-23",
+  "submission_complete": false,
+  "pdf_validation": [
+    {
+      "file": "docs/COMBO_A3_G13_REPORT.pdf",
+      "pages": 3,
+      "text_characters": 7453,
+      "status": "readable, draft; not final evidence"
+    },
+    {
+      "file": "evidence/CONTRIBUTIONS.pdf",
+      "pages": 1,
+      "text_characters": 1335,
+      "status": "readable, draft; not final evidence"
+    },
+    {
+      "file": "evidence/FEEDBACK.pdf",
+      "pages": 1,
+      "text_characters": 766,
+      "status": "readable, draft; not final evidence"
+    },
+    {
+      "file": "evidence/TEST_LOG.pdf",
+      "pages": 2,
+      "text_characters": 5906,
+      "status": "readable, draft; not final evidence"
+    }
+  ],
+  "pdf_method": "pypdf strict parse and text extraction for every page",
+  "apk_sha256": "f54de6242dd259b68005707c1a186a5e9f7b08493bb87679af1ff614c4a1faee",
+  "source_unchanged": true,
+  "remote_main_and_release_tag": "ccc89860d7bd589f028357afe1fd90371b76c498",
+  "automated_application_tests_rerun": false,
+  "missing_video": "evidence/COMBO_A3_G13_DEMO.mp4"
+}

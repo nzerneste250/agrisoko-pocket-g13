@@ -1,24 +1,29 @@
-# Completion record ? 2026-10-23
+# Completion record - submission INCOMPLETE
 
-Work is locally implemented and automatically checked; the submission is incomplete.
+## Submission status - 2026-10-23: INCOMPLETE
 
-## Measured results
+Repository: https://github.com/nzerneste250/agrisoko-pocket-g13
+Release: https://github.com/nzerneste250/agrisoko-pocket-g13/releases/tag/v1.0.0
+Confirmed source commit: ccc89860d7bd589f028357afe1fd90371b76c498 (ccc8986).
+Repository and published release were read on 2026-10-23; the release points to ccc8986. These documentation/packaging updates are local changes after that commit; no new commit, push or release update is claimed. APK provenance is not independently linked to an EAS build or this exact source commit.
 
-- Backend: 54 pytest tests passed. One Starlette TestClient/httpx deprecation warning remains. `python -m pip check`: no broken requirements.
-- Real HTTP: 11 expected responses via running uvicorn on localhost:8013. All five routes; 200, 404, 422 and whitespace-only 400. See HTTP_TEST_RESULTS.json.
-- Evaluation: 12/12 top-1 identity paraphrases (three per member), 5/5 deliberate no-match rejections. No observed errors; this narrow roster suite says nothing about real skill/feature generalization. See AI_EVALUATION.json.
-- Dataset fingerprint: `2cdc122b5bdf7a696654fc10e492011aa7e492d4bce0ca87a1b50378bf467577`.
-- Mobile: six domain tests passed; TypeScript noEmit passed; Expo Doctor 20/20 passed; Android production JS bundle exported locally. No device UI/network/storage test has passed yet.
-- npm audit: 15 high-severity affected nodes, two underlying transitive advisories; no patched latest package versions offered. See SECURITY_FINDINGS.md and NPM_AUDIT.json.
-- EAS: authenticated account check succeeded; per explicit user instruction, preparation stays local. No project linking or cloud submission. EAS preview APK config is ready, but no APK artifact/size or installation success exists to report.
-- Git: master initially and finally has no commits or remotes; source additions remain uncommitted. No push or history rewrite performed.
+Verified locally: build/AgriSokoPocket_G13.apk exists (68,902,179 bytes).
+APK SHA-256: f54de6242dd259b68005707c1a186a5e9f7b08493bb87679af1ff614c4a1faee.
+The APK was not rebuilt or modified during finalization.
 
-## Release/submission limits
+Recorded Android result: the owner reports successful installation and launch; the published release repeats that result. This is genuine owner-reported evidence, not an agent-observed installation or independent second test. Online API connectivity failed in the recorded phone test and remains unresolved. The workstation /health 200 in docs/DEVICE_FIX_REPORT.md does not prove phone connectivity. No device model/version, logcat, installed manifest, screenshots or signed test record is available here. Full offline/cache/accessibility/reconnection acceptance remains unverified.
 
-The official assignment PDF is missing. All four individual profile approvals remain pending. Real member registrations/accounts/technical facts for the other three members, agricultural target-user/problem/feature/outcome facts, contributions/PR reviews, device tests, screenshots, genuine feedback and demo video remain missing. Repository/release URL and final commit are unavailable. Draft PDFs and archive must not be represented as final evidence.
+Evidence status: automated results are historical recorded measurements (backend 54 tests, localhost HTTP 11 checks, identity evaluation 12/12 and no-match 5/5; latest follow-up mobile 25 tests, TypeScript, Expo Doctor 20/20, four sync tests and JS export). They were not rerun in this documentation-only finalization. PDFs are readable draft records/templates, not signed final evidence. Contributions have no verified assessed issues, substantial member PRs or meaningful peer reviews; feedback count is zero. No signatures, reviewers, testers, quotations, individual implementation ownership or demonstration evidence have been invented.
 
-## Three remaining priorities
+Known limitations and missing evidence:
+- Official assignment PDF absent: rubric compliance cannot be certified.
+- All four profile approvals pending; other members' registrations/accounts and technical facts remain unverified. Agricultural target users, problem, delivered agricultural features and outcomes lack supplied facts; current product is team lookup.
+- Genuine per-member issue/PR/review/explanation evidence and any required signatures absent.
+- Genuine independent tester feedback and full device acceptance records/screenshots absent.
+- Required evidence/COMBO_A3_G13_DEMO.mp4 absent; no placeholder video supplied.
+- Phone-to-API failure unresolved; private preview address 172.30.114.74:8000 needs LAN/VPN routing. Preview cleartext exception is app-wide; production requires HTTPS. Installed APK policy and original cancellation cause unverified.
+- Sparse roster evaluation covers easy identities only; skill/feature tests use synthetic fixtures. Scores are not probabilities; offline search is exact matching, not TF-IDF. Pending technical claims are excluded.
+- Historical npm audit records 15 high affected dependency nodes from two advisories; no fresh audit or remediation is claimed. Existing upstream Starlette/httpx test warning remains.
+- Published APK/source correspondence, signing/build provenance and physical-device retest of latest UI/network changes unverified.
 
-1. Obtain the official assignment PDF and member-confirmed facts/approvals, then reconcile schema, broaden real-data evaluation and review dependency security patches.
-2. Configure a reachable HTTPS API, perform an owner-authorized standalone APK build (or install a local Android toolchain), save build/AgriSokoPocket_G13.apk and execute the real-device checklist with genuine feedback/video.
-3. Complete each member's assessed issue, substantial PR, meaningful peer review and explanation; replace draft evidence PDFs with verified records and regenerate COMBO_A3_G13.zip.
+Submission remains incomplete until genuine missing evidence is supplied. Publication and readable PDFs do not establish assignment completion.

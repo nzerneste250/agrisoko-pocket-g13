@@ -1,6 +1,6 @@
 # Android manual test checklist — NOT EXECUTED
 
-Record tester, date, device, Android version, APK SHA-256 and actual result per row. No device has passed yet.
+Record tester, date, device, Android version, APK SHA-256 and actual result per row. Owner reports installation and launch passed; online API access failed. Remaining checklist rows lack recorded acceptance results. See FINALIZATION_STATUS.md.
 
 1. Install build/AgriSokoPocket_G13.apk without Expo Go; cold launch.
 2. Check all six screens, Android back navigation, rotation, large font and TalkBack labels.

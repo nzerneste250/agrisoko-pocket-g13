@@ -1,7 +1,7 @@
 # CONTRIBUTIONS — DRAFT TEMPLATE, NOT VERIFIED EVIDENCE
 
 Project: AgriSoko Pocket G13. Group G13. Prepared 2026-10-23.
-No assessed issues, substantial member PRs or meaningful peer reviews were verified. The local repository initially had no commits or remote. AI-assisted edits must not be attributed to other members.
+No assessed issues, substantial member PRs or meaningful peer reviews were verified. The repository is now published at https://github.com/nzerneste250/agrisoko-pocket-g13 with confirmed source commit ccc8986. Publication alone does not verify individual contributions. AI-assisted edits must not be attributed to other members.
 
 For each member complete these fields with actual evidence:
 - Assessed issue URL and accepted scope.
